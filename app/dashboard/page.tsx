@@ -12,21 +12,7 @@ import { Badge } from '@/components/ui/badge';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useToast } from '@/hooks/use-toast';
 import { BusinessSetupDialog } from '@/components/BusinessSetupDialog';
-import {
-  Star,
-  MessageSquare,
-  ExternalLink,
-  Plus,
-  LogOut,
-  Building,
-  CreditCard,
-  Edit,
-  Copy,
-  CheckCircle2,
-  Sparkles,
-  TrendingUp,
-  Calendar,
-} from 'lucide-react';
+import { Star, MessageSquare, ExternalLink, Plus, LogOut, Building, CreditCard, CreditCard as Edit, Copy, CircleCheck as CheckCircle2, Sparkles, TrendingUp, Calendar } from 'lucide-react';
 
 type Business = {
   id: string;

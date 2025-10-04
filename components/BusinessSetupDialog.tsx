@@ -14,7 +14,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/lib/supabase';
-import { Building2, Loader2 } from 'lucide-react';
+import { Building2, Loader as Loader2 } from 'lucide-react';
 
 type BusinessSetupDialogProps = {
   open: boolean;
